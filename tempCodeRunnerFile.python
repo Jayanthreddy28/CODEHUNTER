@@ -1,0 +1,8 @@
+n= (int(input()))
+l1 = [1,2,3,4,5]
+try:
+    print(l1[2])
+    print(l1[7])
+    print(l1[n])
+except:
+        print("index out of range")

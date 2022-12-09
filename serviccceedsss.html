@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listings</title>
+    <style>
+        .background{
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(backG.jpg); 
+            background-size: cover;
+            background-position: center;
+        }
+        .grid-container{
+            display:grid;
+            grid-template-columns:auto auto;
+            padding: 0px;
+            gap:1px;
+        }
+        .grid-item{
+            padding:20px;
+            font-size: 30px;
+            text-align:center;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+        h2{
+            margin-left: 50px;
+            font-size: 30px;
+            color:white;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end:3;
+        }
+        .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        }
+        .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #d56847;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width:100%;
+    </style>
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="navbar">
+            <ul>
+                <li><a href="C:\Users\zeesh\OneDrive\Desktop\HTML PROJECC STEROIDS EDITION\baby.html">Home</a></li>
+                <li><a href="C:\Users\zeesh\OneDrive\Desktop\HTML PROJECC STEROIDS EDITION\contacthtml.html">About</a></li>
+                <li><a href="#">Listings</a></li>
+                <li><a href="C:\Users\zeesh\OneDrive\Desktop\HTML PROJECC STEROIDS EDITION\addgyu.html">Contact us</a></li>
+            </ul> 
+    </div>
+        <div class="grid-container">
+            <div class="grid-item item1"><h1>OUR LISTINGS</h1><hr></div>
+            <div class="grid-item"><h2>For Rent</h2>
+            <p1 style="color:white;">Gorgeous 3 BHK Studio Apartments</p1>
+            <ul style="color:white">
+                <li>1 Master Bedroom</li>
+                <li>2 Guest Bedrooms</li>
+                <li>2 washrooms</li>
+                <li>2 balconies</li>
+                <li>1 spacious kitchen</li>
+                <li>Italian Marble finish</li>
+                <li>Parking facilities</li>
+                
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <br>
+            <img src="studio.jpg"width="500"heights="500">
+        </div>
+        <div class="grid-item"><h2>For Rent</h2>
+            <p2 style="color:white">Spacious Villa for family</p2>
+            <ul style="color:white">
+                <li>2 Master Bedrooms</li>
+                <li>4 Guest Bedrooms</li>
+                <li>5 bathrooms</li>
+                <li>1 Kitchen</li>
+                <li>Sauna,Home Gym</li>
+                <li>Garage for 4 cars</li>
+                <li>Swimming pool</li>
+                
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <img src="villa2.jpg"width="500"heights="500">
+        </div>
+        <div class="grid-item"><h2>For Buying</h2>
+            <p2 style="color:white">Giant Villa with back-garden</p2>
+            <ul style="color:white">
+                <li>3 Master Bedrooms</li>
+                <li>4 guest Bedrooms</li>
+                <li>6 bathrooms</li>
+                <li>Home Cinema</li>
+                <li>Infinity Pool</li>
+                <li>Parking for 7 cars</li>
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <br>
+            <img src="villa5.jpg" width="500"heights="500">
+        </div>
+        <div class="grid-item"><h2>For Buying</h2>
+            <p2 style="color:white">Luxurious Apartments by sea</p2>
+            <ul style="color:white">
+                <li>2 Master Bedrooms</li>
+                <li>2 Guest Bedrooms</li>
+                <li>2 Balconies</li>
+                <li>1 kitchen</li>
+                <li>Fully Furnsihed</li>
+                <li>Parking facilities</li>
+                <li>Nearby Park</li>
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <img src="sea.jpg"width="500"heights="500">
+        </div>
+        <div class="grid-item"><h2>For Sale</h2>
+            <p2 style="color:white">Spacious Condominium </p2>
+            <ul style="color:white">
+                <li>3 Bedrooms</li>
+                <li>2 Bathrooms</li>
+                <li>1 Large Kitchen</li>
+                <li>Joint Gym</li>
+                <li>Fully Furnished</li>
+                
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <img src="condo.jpg"width="500"heights="500">
+        </div>
+        <div class="grid-item"><h2>For Sale</h2>
+            <p2 style="color:white">Massive Italian style Duplex</p2>
+            <ul style="color:white">
+                <li>2 Master Bedrooms</li>
+                <li>3 Guest Bedrooms </li>
+                <li>Italian Kitchen</li>
+                <li>Infintiy Pool</li>
+                <li>Home Gym</li>
+                <li>Garage for 5 cars</li>
+                <li>Backyard</li>
+            </ul><hr>
+        </div>
+        <div class="grid-item">
+            <br>
+            <br>
+            <img src="duplex.jpg"width="500"heights="500">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
